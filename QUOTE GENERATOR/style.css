@@ -1,0 +1,71 @@
+      body{
+        background:linear-gradient(rgba(21,2,29,0.567),rgba(10,20,30,0.567));
+        overflow:hidden;
+      }
+		.container{
+			background:linear-gradient(rgba(21,2,29,0.567),rgba(10,20,30,0.567));
+			width:100%;
+			height:100%;
+		}
+		.section{
+			background:linear-gradient(rgba(21,2,29,0.567),rgba(10,20,30,0.567));
+			width:60%;
+			min-height:60%;
+			max-height:1000px;
+			box-shadow:10px 10px 10px black;
+			border-radius:20px;
+			position:absolute;
+			left:20%;
+			top:20%;
+		}
+		.heading{
+			Color:yellow;
+			margin:0;
+			text-align:center;
+			letter-spacing: 2px;
+			font-family: sans-serif;
+			font-size:3.5rem;
+			text-shadow:5px -10px 10px black;
+
+		}
+		.heading::first-letter{
+			font-size:5rem;
+			color:red;
+		}
+		#generate{
+			padding:10px 10px;
+			background:repeating-conic-gradient(red,green,blue,pink);
+			border-radius:40px;
+			font-size:1.8rem;
+			color:violet;
+			position:absolute;
+			left:360px;
+			top:370px;
+			box-shadow:5px 5px 5px black;
+			
+		}
+		#generate:active{
+           transform:scale(1.2);
+           background:repeating-conic-gradient(orange,yellow,blue,green,violet);
+           box-shadow:5px 5px 5px green;
+
+		}
+		#quote{
+			margin:30px 30px;
+			color:red;
+			font-weight:20%;
+			text-shadow:5px -10px 10px black;
+
+		}
+
+		#author{
+			color:skyblue;
+			position:relative;
+			left:60%;
+			word-break:break-word;
+			text-decoration: underline;
+			text-shadow:5px -10px 10px black;
+
+		}
+
+	

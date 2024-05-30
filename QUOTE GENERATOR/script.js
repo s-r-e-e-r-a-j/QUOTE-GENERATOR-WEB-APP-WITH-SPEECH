@@ -1,4 +1,4 @@
-
+                      //coded by sreeraj
 			var quote=document.querySelector("#quote");
 			var author=document.querySelector("#author");
 			var button=document.querySelector("#generate")
